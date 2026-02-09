@@ -6,7 +6,8 @@ const AppleBasket = ({ appleCount, basketName }) => {
       <h1>
         <span>{appleCount}</span> apples
       </h1>
-      <p>{basketName}</p>
+      <p>{basketName}  {appleCount === 10 && 'Full'}</p>
+     
     </div>
   )
 }
